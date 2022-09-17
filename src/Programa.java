@@ -2,10 +2,10 @@ import java.util.ArrayList;
 
 public class Programa {
 	public static void main(String[] args) {
-		System.out.println("Iniciando do programa ..");
+		System.out.println("Iniciando o programa ..");
 		System.out.println();
 
-		ArrayList<Integer> numeros = new ArrayList<>();//Integer tipo da variável
+		ArrayList<Integer> numeros = new ArrayList<>();//Integer tipo da variï¿½vel
 		Pilha pilhaPar = new Pilha();// importe da classe
 		Pilha pilhaImpar = new Pilha();
 		
@@ -21,7 +21,7 @@ public class Programa {
 
 		System.out.println(numeros);
 		System.out.println();
-		System.out.println("Quantidades de números criados  = " + numeros.size());
+		System.out.println("Quantidades de nï¿½meros criados  = " + numeros.size());
 		System.out.println();
 
 //------------------------------------------------------------------------------------		
@@ -49,11 +49,11 @@ public class Programa {
 		System.out.println();
 		System.out.println();
 		
-		System.out.println("Pilha de números pares criada!");
+		System.out.println("Pilha de nï¿½meros pares criada!");
 		System.out.println(pilhaPar);
 		System.out.println();
 		
-		System.out.println("Pilha de números impares criada!");
+		System.out.println("Pilha de nï¿½meros impares criada!");
 		System.out.println(pilhaImpar);
 		
 		System.out.println();
@@ -90,7 +90,7 @@ public class Programa {
 		
 		
 		
-	}// fim do método main
+	}// fim do mï¿½todo main
 	
 	public static void desempilha (Pilha tipoDePilha) {
 		for(int i = 0; i <= 14; i++ ) {
